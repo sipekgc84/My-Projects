@@ -1,0 +1,78 @@
+.container {
+  background-image: url(submarine1.jpg);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+input[type="text"], button {
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: offwhite;
+  margin-right: 5px;
+  align-content: center;
+}
+
+button:hover {
+  background-color: mistyrose;
+  cursor: pointer;
+}
+
+#answerDisplay {
+  font-size: 20px;
+  margin-top: 40px;
+  width: 100%;
+  text-align: right;
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+
+#result {
+  font-size: 20px;
+  margin-top: 20px;
+  width: 100%;
+  text-align: right;
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+
+#question {
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+button {
+  width: 100px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  text-shadow: 2px 2px 4px red, -2px -2px 4px gold;
+}
+footer {
+  padding: 1px;
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  font-size: 0.5rem;
+  text-align: center;
+}
+  footer p {
+    color: #fbfbfb;
+    font-size: 0.9rem;
+  }
+  footer a {
+    color: #fcf9f9;
+    font-size: 0.9rem;
+  }

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="questionmark.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="setpoints style.css">
+    <title>Setpoints</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Random Setpoint Generator</h1>
+      <p id="question"></p>
+      <input type="text" id="answer">
+      <br><br>
+      <div class="buttons">
+        <button id="submit">Submit</button>
+        <button id="showAnswer">Show Answer</button>
+        <button id="nextQuestion">Next Question</button>
+      </div>
+      <br><br>
+      <div class="message-box">
+        <p id="result"></p>
+        <p id="answerDisplay"></p>
+      </div>
+    </div>
+    <br><br>
+    <div id="incorrectAnswersDisplay" style="display: none;">
+      <h2>Incorrect Answers:</h2>
+      <ul id="incorrectAnswersList"></ul>
+    </div>
+    <script src="setpoints.js"></script>
+    <footer>
+      <a href="../projects.html" class="button">My Projects</a>
+      <p>Gregory C. Sipek, 2023</p>
+    </footer>
+  </body>
+</html>
