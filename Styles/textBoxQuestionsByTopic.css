@@ -1,0 +1,213 @@
+body {
+    background: url('../images/VASurf.jpeg') center/cover no-repeat fixed;
+    background-color: #EEEEEE;
+    color: rgb(25, 27, 0);
+    font-size: 18px;
+    line-height: 1.25;
+    height: 100%;
+   
+}
+#topics {
+	text-align: center;
+}
+
+button {
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    padding: 0.5rem 0.3rem;
+    font-size: 13px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: palegoldenrod;
+}
+
+button a {
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+#backBtn {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header {
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+    color: gold;
+    margin: 0;
+    text-align: center;
+    text-shadow: 2px 2px 4px #870000;
+}
+
+h2 {
+    font-size: 17px;
+    color: black;
+    margin: 0;
+    text-align: center;
+}
+
+h3 {
+    text-shadow: 3px 2px 4px black;
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    margin: 0;
+    margin-bottom: 1px;
+}
+
+nav a:hover {
+    background-color: gold;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    padding: 1px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: smaller;
+}
+
+footer p {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.button-link {
+    display: inline-block; 
+    margin: 0;
+    padding: 0; 
+}
+
+
+#topics {
+    position: fixed;
+    top: 15%;
+    left: 0;
+    width: 100%;
+    max-height: 50vh;
+    overflow-y: auto;
+}
+
+#topics a:hover {
+    transition: font-size 0.3s ease;
+    font-size: 110%;
+}
+
+body.hide-background {
+    background-image: none !important;
+}
+
+#topicSearch {
+    position: fixed;
+    top: 20px;
+    right: 10px;
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: left;
+}
+
+#searchResults {
+    position: fixed;
+    top: calc(10px + 30px);
+    right: 10px;
+    width: 200px;
+    padding: 1px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-size: 14px;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+.search-result-link {
+    display: block;
+    margin: 0.5px;
+    color: #000000;
+    transition: background-color 0.3s ease;
+}
+
+.search-result-link:hover {
+    background-color: aqua;
+}
+
+.search-results-container {
+    z-index: 1000;
+}
+
+#questionbody #question {
+    font-weight: bold;
+}
+.hidden,.hidden *{
+	display: none;
+	height: 0px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.question-image {
+    width: 100%;
+    max-width: 60%; 
+    max-height: 50vh; 
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.input-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    margin-bottom: 10px;
+}
+
+.input-container div {
+    flex: 1 1 25%; /* Each item takes 25% of the container width */
+    max-width: calc(25% - 1px); /* Adjust width to ensure no more than 4 columns */
+    box-sizing: border-box; /* Ensures padding and border are included in width */
+    margin: 1px; /* Adjust vertical spacing between items */
+    gap: 7px;
+    text-align: center; 
+}
+
+.input-container input {
+    border-radius: 0.2rem;
+	border: 1px solid black;
+    padding: 4px;
+    font-size: 12px;
+    width: 150px;
+}
+
+#result {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}

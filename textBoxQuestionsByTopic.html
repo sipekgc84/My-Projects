@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drawing Topics</title>
+  <link rel="stylesheet" href="styles/textBoxQuestionsByTopic.css">
+  <link rel="shortcut icon" href="questionmark.png" type="image/x-icon">
+  <!-- Include JavaScript files -->
+  <script src="Script/textBoxQuestions.js" defer></script>
+  <script src="Script/textBoxQuestionsByTopic.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Drawings By Topic</h1>
+    <h2>Scroll through drawing topics below or search for a topic on the right</h2>
+  </header>
+
+  <!-- Search bar for topics -->
+  <div id="searchBar">
+    <input type="text" id="topicSearch" placeholder="Search for a Topic...">
+    <div id="searchResults"></div>
+  </div>
+
+  <div id="topics">
+    <!-- Populated by JavaScript -->
+  </div>
+  
+  <div class="hidden" id="questionbody">
+    <h3>Classification</h3>
+    <div class="question-section" id="question1">
+      <div class="image-container">
+        <img class="question-image" src="" alt="Question Image">
+      </div>
+      <h2></h2>
+      <div class="input-container" id="inputContainer">
+          <!-- Text boxes will be dynamically generated here -->
+      </div>
+      <div class="button-container">
+          <button onclick="checkAnswers('question1')">Check Answers</button>
+          <a href="#"><button id="home-btn">Questions</button></a>
+      </div>
+      <p id="result"></p>
+      <h3>Classification</h3>
+    </div>
+  </div>
+
+  <footer>
+    <div class="button-link">
+      <a href="textBoxQuestionsHome.html"><button id="backBtn">Question Banks</button></a>
+    </div>
+    <p>Gregory C. Sipek, 2023</p>
+  </footer>
+</body>
+</html>

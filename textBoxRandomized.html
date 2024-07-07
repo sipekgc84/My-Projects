@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Box Game</title>
+    <link rel="stylesheet" href="styles/textBoxRandomized.css">
+</head>
+<body>
+    <h3>Classification</h3>
+    <div class="question-section" id="question1">
+        <img class="question-image" src="" alt="Question Image">
+        <h2></h2>
+        <div class="input-container" id="inputContainer">
+            <!-- Text boxes will be dynamically generated here -->
+        </div>
+        <div class="button-container">
+            <button onclick="checkAnswers('question1')">Check Answers</button>
+            <button onclick="nextQuestion()">Next Question</button>
+            <button onclick="goHome()">Home</button>
+        </div>
+        <div id="result-container">
+            <p id="result"></p>
+        </div>        
+        <h3>Classification</h3>
+    </div>
+    <script src="script/textBoxQuestions.js"></script>
+    <script src="script/textBoxRandomized.js"></script>
+    <script>
+        function goHome() {
+            window.location.href = 'textBoxQuestionsHome.html';
+        }
+    </script>
+</body>
+</html>

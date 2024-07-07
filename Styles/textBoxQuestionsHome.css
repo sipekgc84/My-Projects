@@ -1,0 +1,109 @@
+h1, h2 {
+	text-shadow: 3px 2px 4px black;
+	text-align: center;
+	font-size: 50px;
+	color: gold;
+	margin-bottom: 20px
+}
+
+h2{
+	margin-bottom: 0;
+}
+
+h3 {
+	margin-top: 0;
+}
+
+button {
+	border-radius: 0.5rem;
+	border: 1px solid black;
+	padding: 0.5rem 0.3rem;
+	font-size: smaller;
+	transition: all 0.3s ease;
+}
+
+button:hover {
+	background-color: palegoldenrod;
+}
+
+button a {
+	text-decoration: none;
+	color: inherit;
+	padding: 10px 10px;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	gap: 5px;
+	width: 100%;
+	margin-top: 20px;
+	position: relative;
+	left: -20px; 
+}
+
+ul{
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0rem;
+	justify-content: center;
+	width: 80%;
+}
+
+header{
+	background-image: url("../images/VA Class submarine.jpg");
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	padding-top: 100px;
+	width: 100vw;
+	overflow: hidden;
+	margin: 0;
+	flex-direction: column;
+	align-items: fixed;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -8;
+}
+
+body{
+	background-color: #EEEEEE;
+}
+
+#questionbody{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: maroon;
+	gap: 0;
+	justify-content: flex-start;
+	width: 100%;
+}
+
+
+
+.hidden, .hidden * {
+	display: none;
+	height: 0px;
+}
+
+h4 {
+	text-shadow: 3px 2px 4px black;
+	text-align: center;
+	font-size: 30px;
+	color: red;
+	margin-bottom: -45px;
+}
+
+footer {
+	padding: 1px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	z-index: -1;
+}

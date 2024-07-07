@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    color: black;
+    font-family: Arial, sans-serif;
+    background-color: #EEEEEE;
+}
+
+.question-section {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.question-image {
+    width: 100%;
+    max-width: 60%; /* Adjust as needed */
+    max-height: 50vh; /* Adjust as needed */
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 7px;
+    margin-bottom: 10px; /* Add some margin to space it from the buttons */
+}
+
+.input-container div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 calc(25% - 1px); /* Adjust 25% to ensure no more than 4 columns */
+    box-sizing: border-box; /* Ensures padding and border are included in width/height */
+}
+
+.input-container label {
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.input-container input {
+    border-radius: 0.2rem;
+	border: 1px solid black;
+    padding: 4px;
+    font-size: 12px;
+    width: 150px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 2px; 
+    margin-top: 10px;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 0.5rem;
+	border: 1px solid black;
+	padding: 0.5rem 0.3rem;
+	font-size: 12px;
+	transition: all 0.3s ease;
+}
+
+button:hover {
+	background-color: palegoldenrod;
+}
+
+#result-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; /* Adjust height based on your design */
+}
+
+/* Style for the result message */
+#result {
+    font-size: 14px; 
+    text-align: center; 
+}
+
+
+h2 {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+}
+
+h3 {
+    text-shadow: 3px 2px 4px black;
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    margin: 0;
+    margin-bottom: 1px;
+}
